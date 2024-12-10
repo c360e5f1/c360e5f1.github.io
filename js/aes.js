@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function ()
 
 	// TODO: change the keyText value (above)
 	// Uncomment this next line to generate a new key:
-	// Aes.newKeyText().then((keyText) => { console.log('keyText: ' + keyText); });
+	Aes.newKeyText().then((keyText) => { console.log('keyText: ' + keyText); });\    
 
 	// INSTRUCTIONS:
 	// 1. Insert a raw email address into the HTML:
