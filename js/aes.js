@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function ()
 {
-	const keyText = '3q11xjA7UcbJM_TBz60H6MHZG0s4L4M2bhSWU9J4Kgs';
+	const keyText = 'CuxEwKIDCfa2dRfpe6fys7SNUCpZNvgTwP-XK71Fsr8';
 
 	// TODO: change the keyText value (above)
 	// Uncomment this next line to generate a new key:
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function ()
 		const coder = new AesTextCoder(key);
 
 		document.querySelectorAll('.email')
-			.forEach(coder.encode.bind(coder));
+			.forEach(coder.decode.bind(coder));
 	};
 
 	if ('subtle' in window.crypto) {
