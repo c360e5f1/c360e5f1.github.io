@@ -1,8 +1,11 @@
+// Source: https://spencermortensen.com/articles/email-obfuscation/#text-aes
+// Author has provided source code for this under Public Domain
+
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function ()
 {
-	const keyText = 'CuxEwKIDCfa2dRfpe6fys7SNUCpZNvgTwP-XK71Fsr8';
+	const keyText = '3q11xjA7UcbJM_TBz60H6MHZG0s4L4M2bhSWU9J4Kgs';
 
 	// TODO: change the keyText value (above)
 	// Uncomment this next line to generate a new key:
