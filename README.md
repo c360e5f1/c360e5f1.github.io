@@ -1,6 +1,6 @@
 # c360e5f1.github.io
 
-This is the GitHub Pages repository for https://andrewpeng.pro
+This is the GitHub Pages repository for https://c360e5f1.github.io/
 
 ***
 
